@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="bg-white flex flex-wrap w-full items-end gap-2.5 overflow-hidden font-light justify-center p-2.5 max-md:max-w-full"
+      className="bg-white flex w-full items-end gap-2.5 overflow-hidden font-light justify-center p-2.5 max-md:max-w-full"
     >
       <div className="bg-white self-stretch flex min-w-60 flex-col overflow-hidden w-[1018px] my-auto pl-[63px] pr-2.5 py-2.5 max-md:max-w-full max-md:pl-5">
         <div className="bg-white min-h-56 w-[890px] max-w-full overflow-visible font-normal pl-2.5 py-[13px]">

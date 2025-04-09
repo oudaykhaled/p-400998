@@ -3,7 +3,7 @@ import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
 import WorkProgress from "@/components/sections/WorkProgress";
-import Portfolio from "@/components/Portfolio";
+import PortfolioSection from "@/components/sections/portfolio/PortfolioSection";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 
@@ -14,7 +14,7 @@ const Index: React.FC = () => {
       <Hero />
       <Services />
       <WorkProgress />
-      <Portfolio />
+      <PortfolioSection />
       <Contact />
       <Footer />
     </div>

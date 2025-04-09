@@ -4,7 +4,7 @@ const Services: React.FC = () => {
   return (
     <section
       id="services"
-      className="bg-white flex w-full gap-[40px_135px] overflow-hidden text-[rgba(75,15,147,1)] font-normal flex-wrap p-2.5 max-md:max-w-full"
+      className="bg-white flex w-full gap-[40px_135px] overflow-hidden text-[rgba(75,15,147,1)] font-normal max-md:flex-wrap p-2.5 max-md:max-w-full"
     >
       <div className="flex min-w-60 min-h-[383px] flex-col overflow-hidden items-stretch justify-center w-[960px] pl-[46px] pr-2.5 py-[47px] max-md:max-w-full max-md:pl-5">
         <h3 className="text-[40px] font-light">Our Services</h3>

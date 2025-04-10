@@ -5,10 +5,10 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="bg-white flex w-full items-end gap-2.5 overflow-hidden font-light justify-center p-2.5 max-md:max-w-full"
+      className="bg-white flex w-full items-end gap-2.5 overflow-hidden font-light justify-center p-2.5 max-md:max-w-full pl-[180px] max-xl:pl-[20px]"
     >
-      <div className="bg-white self-stretch flex min-w-60 flex-col overflow-hidden w-[1018px] my-auto pl-[63px] pr-2.5 py-2.5 max-md:max-w-full max-md:pl-5">
-        <div className="bg-white min-h-56 w-[890px] max-w-full overflow-visible font-normal pl-2.5 py-[13px]">
+      <div className="bg-white self-stretch flex min-w-60 flex-col overflow-hidden my-auto pr-2.5 max-md:max-w-full max-md:pl-5">
+        <div className="bg-white min-h-56 w-[890px] max-w-full overflow-hidden font-normal pl-2.5">
           <h3 className="text-[rgba(144,15,195,1)] text-[40px] tracking-[-0.4px] max-md:max-w-full font-light">
             <span>Get In </span>
             <span>Touch </span>

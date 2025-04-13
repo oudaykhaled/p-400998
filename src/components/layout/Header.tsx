@@ -38,25 +38,41 @@ const Header: React.FC = () => {
       >
         <a
           href="#services"
-          className="block md:inline-block px-3 py-2 hover:text-opacity-80 transition-colors font-inter font-light text-[25px] leading-[53px] tracking-[0px]"
+          className="self-stretch w-[111px] my-auto hover:text-opacity-80 transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            document.querySelector("#services")?.scrollIntoView({ behavior: "smooth" });
+          }}
         >
           Services
         </a>
         <a
           href="#portfolio"
-          className="block md:inline-block px-3 py-2 hover:text-opacity-80 transition-colors font-inter font-light text-[25px] leading-[53px] tracking-[0px]"
+          className="self-stretch w-[100px] my-auto hover:text-opacity-80 transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            document.querySelector("#portfolio")?.scrollIntoView({ behavior: "smooth" });
+          }}
         >
           Portfolio
         </a>
         <a
           href="#progress"
-          className="block md:inline-block px-3 py-2 hover:text-opacity-80 transition-colors font-inter font-light text-[25px] leading-[53px] tracking-[0px]"
+          className="self-stretch w-[113px] my-auto hover:text-opacity-80 transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            document.querySelector("#progress")?.scrollIntoView({ behavior: "smooth" });
+          }}
         >
           Progress
         </a>
         <a
           href="#contact"
-          className="block md:inline-block px-3 py-2 hover:text-opacity-80 transition-colors font-inter font-light text-[25px] leading-[53px] tracking-[0px]"
+          className="self-stretch w-[138px] my-auto hover:text-opacity-80 transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
+          }}
         >
           Contact Us
         </a>

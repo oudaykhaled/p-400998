@@ -5,7 +5,7 @@ import FeatureGrid from "./FeatureGrid";
 
 const PortfolioSection: React.FC = () => {
   return (
-    <div className="flex flex-col relative min-h-[2693px] overflow-hidden items-center pt-[22px] pb-3 px-2.5">
+    <div   id="portfolio" className="flex flex-col relative min-h-[2693px] overflow-hidden items-center pt-[22px] pb-3 px-2.5">
       <img
         src="https://cdn.builder.io/api/v1/image/assets/076504b1d3ea4311a21dce1976e534bb/0d5938d5105feca1954b0b881e1167cc200b8db3?placeholderIfAbsent=true"
         alt="Portfolio background"

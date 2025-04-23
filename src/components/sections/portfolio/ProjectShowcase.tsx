@@ -8,6 +8,7 @@ interface ProjectShowcaseProps {
   imageAlt: string;
   reverse?: boolean;
   textColor?: string;
+  className?: string;
 }
 
 const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
@@ -18,6 +19,7 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
   imageAlt,
   reverse = false,
   textColor = "text-[rgba(75,15,147,1)]",
+  className = '',
 }) => {
   const textColorClass = textColor || "text-[rgba(75,15,147,1)]";
   const descriptionColorClass =
@@ -48,7 +50,7 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
   );
 
   return (
-    <section className="flex w-full items-center gap-[40px] justify-center flex-row p-2.5 my-8 max-md:flex-wrap">
+    <section className={`flex w-full items-center gap-[40px] justify-center flex-row p-2.5 my-8 max-md:flex-wrap ${className}`}>
       {reverse ? (
         <>
           {content}

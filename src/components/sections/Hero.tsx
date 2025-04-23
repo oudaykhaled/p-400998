@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       <img
         src="https://cdn.builder.io/api/v1/image/assets/076504b1d3ea4311a21dce1976e534bb/771b15db346a89841161a0cf9b70acc359f6815a?placeholderIfAbsent=true"
         alt="Hero Background"
-        className="absolute aspect-[1.45] h-auto w-auto object-cover inset-0"
+        className="absolute aspect-[1.45] h-auto max-h-[1000px] min-h-[500px] w-full inset-0"
       />
       <div className="relative flex flex-row items-start justify-between w-full max-md:flex-col mt-[-160px] pt-[0px] max-md:pt-[40px] max-md:py-89px">
         <div

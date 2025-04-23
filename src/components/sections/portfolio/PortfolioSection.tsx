@@ -9,7 +9,7 @@ const PortfolioSection: React.FC = () => {
       <img
         src="https://cdn.builder.io/api/v1/image/assets/076504b1d3ea4311a21dce1976e534bb/0d5938d5105feca1954b0b881e1167cc200b8db3?placeholderIfAbsent=true"
         alt="Portfolio background"
-        className="absolute aspect-[0.52] w-full mt-[250px] inset-0 max-md:invisible"
+        className="absolute aspect-[0.52] w-full mt-[250px] 2xl:mt-[0px] inset-0 max-md:invisible"
       />
 
       <div className="relative z-10 w-full max-w-[1728px]">
@@ -31,6 +31,7 @@ const PortfolioSection: React.FC = () => {
           imageAlt="Rahmah App Screenshot"
           reverse={true}
           textColor="text-white"
+          className="2xl:mt-[100px]"
         />
 
         <ProjectShowcase
